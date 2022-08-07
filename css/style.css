@@ -1,0 +1,79 @@
+/*  
+:root {
+    
+}*/
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    background-color: black;
+  }
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: white;
+    color: black;
+    border-bottom: 10px solid black;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  h3{
+    font-size: 40px;
+  }
+  /* Nav */
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: gray;
+  }
+  /* Section that contians information about me */
+
+  article{
+    border-bottom: 10px solid black;
+  }
+  .about-me{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+/* Picture of Me */
+  .image-me {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+  }
+
+  .about-text p{
+    display: flex;
+    color:black;
+    padding-left: 10px;
+    line-height: 1.5;
+  }
+
+  section .content-projects{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
