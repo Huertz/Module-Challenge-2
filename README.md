@@ -45,7 +45,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+    Screenshot
     ```md
     ![alt text](css/images/Porfolio2.png)
     ```
