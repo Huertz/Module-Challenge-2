@@ -48,6 +48,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     Screenshot
     md ![alt text](css/images/Porfolio2.png)
 
+    Link to the website: file:///C:/Users/alfre/Desktop/Code/Module%20Two/Module-Challenge-2/index.html
+
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
