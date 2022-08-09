@@ -6,7 +6,7 @@
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
-My motivation for this project was to build while also understanding the concepts of HTML and CSS. 
+My motivation for this project was to build my first porfolio while also understanding the concepts of HTML and CSS. 
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 I builded the project becuase I wanted to undestnad HTML and CSS. Also to have aunderttanding of webdige. To be able to have a orgnaize website, the design should be planned before starting 
 to right the code. It helps to have a final picture of the website. 
@@ -19,14 +19,26 @@ I know that the website looks simple but I think it does what it supposedly need
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
+- [Accepted Criteria](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## Accepted Criteria
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 

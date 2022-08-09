@@ -21,7 +21,7 @@ header {
   color: var(--black);
   border-bottom: 10px solid var(--black);
 }
-
+/* h1-h6 tags */
 h1 {
   font-size: 40px;
 }
@@ -57,15 +57,16 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
-
+/* hovering navigation portion of the website */
 nav a:hover {
   color: gray;
 }
 /* Section that contians information about me */
-
+/* It adds a black border to the below the article */
 article{
   border-bottom: 10px solid var(--black);
 }
+/* Abou */
 .about-me{
   background-color: var(--white);
   display: flex;
