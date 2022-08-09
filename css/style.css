@@ -1,6 +1,6 @@
 /* Added variables for colors */
 :root {
-  --white: white;
+  --white: #D0EDF1;
   --black: black;    
 }
 body {
@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;*/
   line-height: 1;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: var(--white);
 }
 /* Header */
 header {
@@ -29,6 +31,17 @@ h2{
 }
 h3{
   font-size: 40px;
+  text-align: center;
+}
+h4{
+  font-size: 30px;
+  text-align: center;
+}
+h5 {
+  font-size: 20px;
+  text-align: center;}
+h6{
+  font-size: 15px;
   text-align: center;
 }
 /* Nav */
@@ -74,11 +87,17 @@ article{
   line-height: 1.5;
 }
 
+.content-projects h3{
+  text-align: center;
+  background-color: var(--white);
+}
+
 .content-projects{
   background-color: var(--white);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-bottom: 10px solid var(--black);
 }
 
 .content-projects{
@@ -91,6 +110,20 @@ article{
   justify-content: center;
 }
 
-.content-image{
-  size: 33%;
+.content-colum .content-image1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.content-image1:hover {
+  display: flex;
+  position: relative;
+  background-color: red;
+}
+
+
+
+
+
+
