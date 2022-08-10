@@ -1,7 +1,8 @@
 /* Added variables for colors */
 :root {
   --white: #D0EDF1;
-  --black: black;    
+  --black: black;   
+  --offwhite: antiquewhite;
 }
 body {
   line-height: 1;
@@ -14,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: var(--white);
+  background-color: var(--offwhite);
   color: var(--black);
   border-bottom: 10px solid var(--black);
 }
@@ -137,7 +138,7 @@ article{
 
 /* Footer sections */
 footer {
-  background-color: antiquewhite;
+  background-color: var(--offwhite);
   padding-top: 10px;
   padding-bottom: 10px;
   list-style: none;
