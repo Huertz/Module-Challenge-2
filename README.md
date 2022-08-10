@@ -53,10 +53,18 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
-
+    I did not so any collaborations
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+    Thought the project I used multiple sources to guide me
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    https://www.w3schools.com/css/css_border.asp
+    https://www.w3schools.com/css/css_pseudo_elements.asp
+    https://www.w3schools.com/html/html_links.asp
 
 If you followed tutorials, include links to those here as well.
+ I also followed some tutorials
+    https://www.youtube.com/watch?v=IDcf8Ig-05Y&t=119s&ab_channel=EZTutorials
+    I did used the Week 2 Mini Project for Reference and guidence for a moment. And then I started figuring out the concepts of CSS and HTML. 
 
 ## License
 
