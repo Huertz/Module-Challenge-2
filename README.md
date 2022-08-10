@@ -43,27 +43,28 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
-
+    [Link text Here]()
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     Screenshot
     md ![alt text](css/images/Porfolio.png)
 
-    Link to the website: file:///C:/Users/alfre/Desktop/Code/Module%20Two/Module-Challenge-2/index.html
+  
 
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
-    I did not so any collaborations
+    I did a collaboration with Salissa [Link text Here](https://github.com/Salissa4/Portfolio)
+    She gave feed back about my project. After that I made few changes to my website. 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
     Thought the project I used multiple sources to guide me
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    https://www.w3schools.com/css/css_border.asp
-    https://www.w3schools.com/css/css_pseudo_elements.asp
-    https://www.w3schools.com/html/html_links.asp
+    [Link text Here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    [Link text Here](https://www.w3schools.com/css/css_border.asp)
+    [Link text Here](https://www.w3schools.com/css/css_pseudo_elements.asp)
+    [Link text Here](https://www.w3schools.com/html/html_links.asp)
 
 If you followed tutorials, include links to those here as well.
  I also followed some tutorials
-    https://www.youtube.com/watch?v=IDcf8Ig-05Y&t=119s&ab_channel=EZTutorials
+    [Link text Here](https://www.youtube.com/watch?v=IDcf8Ig-05Y&t=119s&ab_channel=EZTutorials)
     I did used the Week 2 Mini Project for Reference and guidence for a moment. And then I started figuring out the concepts of CSS and HTML. 
 
 ## License
