@@ -9,14 +9,14 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header id="header">
         <h1>Porfolio</h1>
         <!-- Navigation Bar -->
         <nav>
             <ul>
                 <li><a href="https://github.com/Huertz" target="_blank">GitHub</a></li>
                 <li><a href="#section-project">My Work</a></li>
-                <li><a href="#contact-information" class="seo">Contact</a></li>
+                <li><a href="#contact-information">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,47 +27,63 @@
             <figure class="image-me">
                 <img src="./css/images/picture.jpg" alt="Male with glasses">
             </figure>
-            <div class="about-text">
+            <section class="about-text">
                 <h2>FullStack Web Developer<br>Jose Alfredo Huerta</h2>             
                 <p>Orignaly from Piedras Negras, Coahuila. I'm currently attending the UT Coding Bootcamp.<br> About myself I'm a person that likes to spend time with family and friends.<br>
                 I'm a film fanatic, my favorite movie studio is A24.</p>
-                </div>
+            </section>
         </article>
 
         <!-- Project Section -->
         <!-- I know the mistake I could not figuire out how to center the word project -->
             <h3>Projects</h3>
             <!-- Created id to so it scrolls down wher the My Work is activated -->
-        <section id="section-project"class="content-projects">
-            
-            <div class="content-column">
-                <h5>Project 1</h5>
+        <section id="section-project" class="content-projects">
+             
+            <div class="project-column">
+                <h4>Project 1</h4>
               <figure class="content-image1">
                 <a href="https://huertz.github.io/Module-Challenge-1/" target="_blank"><img src="./css/images/Horison.png"  alt="coming soon"></a>
             </div>
             
-            <div class="content-column">
-                <h5>Project 2</h5>
+            <div class="project-column">
+                <h4>Project 2</h4>
                 <figure class="content-image">
-                  <img src="./css/images/coming-soon.jpg" alt="coming soon">
+                    <a href="#header">
+                        <img src="./css/images/coming-soon.jpg" alt="coming soon">
+                    </a>
             </div>
 
-            <div class="content-column">
-                <h5>Project 3</h5>
+            <div class="project-column">
+                <h4>Project 3</h4>
                 <figure class="content-image">
-                    <img src="./css/images/coming-soon.jpg" alt="coming soon">
+                    <a href="#header"><img src="./css/images/coming-soon.jpg" alt="coming soon"></a>
             </div>      
         </section>
-        <!-- Footer, Added id so it directly goes when the contact is clicked -->
-    <footer id="contact-information">
-        <h5>Contact Information</h5>
+        <!-- Contact information sections -->
+        <section id="contact-information" class="contact">
+            <h5>Contact Information</h5>
         <div>
-            <h6>Email: alfredo_huerta95@yahoo.com</h6>
-            <h6>Phone Number: (830) 325-3503</h6>
-            <h6><a href="https://www.instagram.com/alfredo.huerta/">Instagram</a></h6>
-        </div>
-    </footer>
+            <ul class="link-info">
+                <li>
+                    <a href = "mailto:alfredo_huerta95@yahoo.com?subject = Feedback&body = Message">Email</a> <!-- used this webiste to add the email https://www.tutorialspoint.com/html/html_email_links.htm -->
+                </li>
 
+                <li>
+                    <a href="tel: 830-3253503">Phone Number</a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/alfredo.huerta/" target="_blank">Instagram</a>
+                </li>
+             </ul>
+        </div>
+        </section>
+
+        <!-- Footer section -->
+    <footer>
+       <h6>© Jose Alfredo Huerta</h6>
+    </footer>
     </main>
 </body>
 </html>

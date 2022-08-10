@@ -4,9 +4,6 @@
   --black: black;    
 }
 body {
-  /*  
-  display: flex;
-  flex-direction: column;*/
   line-height: 1;
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--white);
@@ -21,7 +18,7 @@ header {
   color: var(--black);
   border-bottom: 10px solid var(--black);
 }
-/* h1-h6 tags */
+/* h1-h6 tags from big to small */
 h1 {
   font-size: 40px;
 }
@@ -42,8 +39,9 @@ h5 {
   text-align: center;}
 h6{
   font-size: 15px;
-  text-align: center;
+  color: var(--black);
 }
+
 /* Nav */
 nav ul {
   display: flex;
@@ -66,7 +64,7 @@ nav a:hover {
 article{
   border-bottom: 10px solid var(--black);
 }
-/* Abou */
+/* About me section */
 .about-me{
   background-color: var(--white);
   display: flex;
@@ -87,12 +85,7 @@ article{
   padding-left: 10px;
   line-height: 1.5;
 }
-
-.content-projects h3{
-  text-align: center;
-  background-color: var(--white);
-}
-
+/* It makes the project section to be flex and it adjust the content to the center. Also it flex-wrap wrap */
 .content-projects{
   background-color: var(--white);
   display: flex;
@@ -104,23 +97,54 @@ article{
 .content-projects{
   background-color: var(--white);
   padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+  padding-bottom: 10px;;
   display: flex;
   min-height: 100%;
   justify-content: center;
 }
 
-.content-colum .content-image1 {
+.project-colum .content-image1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.content-image1:hover {
-  display: flex;
-  position: relative;
+/* It creates a litle hover effect to project 1s */
+.content-image1:hover{
   background-color: red;
+}
+
+/* Contact information css */
+.contact{
+  border-bottom: 10px solid var(--black);
+  padding-bottom: 20px;
+  color: var(--black);
+}
+.contact ul li{
+  list-style: none;
+  display: inline;
+  justify-content: space-between;
+  padding: 15px 15px 10px 15px;
+  
+}
+.link-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact a:hover {
+  color: gray;
+}
+
+/* Footer sections */
+footer {
+  background-color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+footer h6 {
+  text-align: center;
 }
 
 
