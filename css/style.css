@@ -5,15 +5,17 @@
   --offwhite: antiquewhite;
 }
 body {
+  display: flex;
+  flex-direction: column;
   line-height: 1;
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--white);
+  max-width: 100%;;
 }
 /* Header */
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1%;
   background-color: var(--offwhite);
   color: var(--black);
@@ -91,6 +93,13 @@ article{
   line-height: 1.5;
 }
 /* It makes the project section to be flex and it adjust the content to the center. Also it flex-wrap wrap */
+
+section .content-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .content-projects{
   background-color: var(--white);
   display: flex;
@@ -114,9 +123,13 @@ article{
   justify-content: center;
 }
 /* It creates a litle hover effect to project 1s */
-.content-image1:hover{
-  background-color: red;
+img:hover{
+  background-color: var(--black);
+  opacity: .07;
+  justify-content: center;
+  text-align: center;
 }
+
 
 /* Contact information css */
 .contact{
@@ -146,6 +159,8 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 footer h6 {
@@ -153,7 +168,8 @@ footer h6 {
 }
 
 
-
-
-
+.project-picture {
+  width: 300px;
+  height: 250px;
+}
 
